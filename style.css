@@ -1,9 +1,166 @@
 
 
 /* --- YOUR CODE STARTS HERE --- */
+/*
+colors: 
+main ui nav background: #fafafa;
+post background: #fefeff;
+font: #252525;
+link: #426a90;
 
 
+ */
+body {
+	background: #fefeff;
+	color: #252525;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	text-align: left;
+}
 
+a {
+	color: #252525;
+	text-decoration: none;
+}
+
+.userDesc a {
+	color: #426a90;
+	text-decoration: none;
+	font-weight: 500;
+}
+.app {
+	width: 358px !important;
+	border: 1px solid #5f6872;
+	height: 623px;
+}
+/* Nav Styling */
+.nav {
+	background: #fafafa;
+}
+
+.topNav {
+	border-bottom: 2px solid #eeeeee;
+	display: block;
+	padding: 12px 0;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.topNavItemLeft {
+	float: left;
+	display: inline;
+	padding-left: 10px;
+}
+
+.topNavItemCenter {
+	display: inline;
+}
+
+.topNavItemRight {
+	float: right;
+	display: inline;
+	padding-right: 10px;
+}
+
+.bottomNav {
+	border-top: 2px solid #eeeeee;;
+}
+
+
+/* Content Window Styling */
+.content {
+	height: 534px !important;
+	overflow-x: none;
+	overflow-y: scroll !important; 
+	text-align: left;
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+/* Post Styling */
+.itemHeader {
+	padding: 5px;
+}
+.userProfilePhoto {
+	float: left;
+	display: inline;
+	padding: 5px;
+}
+.userInfo {
+	float: left;
+	display: inline;
+	padding-top: 7px;
+	padding-left: 5px;
+	text-align: left;
+}
+.userId {
+	font-weight: 600; 
+	text-align: left;
+	line-height: 14px;
+}
+.postLocation {
+	font-size: 12px;
+	line-height: 14px !important;
+}
+.locationIcon {
+	font-size: 15px !important;
+}
+.postOptions {
+	float: right;
+	display: inline;
+	padding: 15px 15px 0 0;
+}
+.menuIcon {
+	font-size: 15px !important;
+}
+.itemInteraction {
+	display: block !important;
+	padding: 10px 10px 5px 10px;
+	height: 20px !important;
+}
+.interactionMenuLeft {
+	float: left;
+	display: inline;
+	padding-right: 20px;
+}
+.interactionMenuRight {
+	float: right;
+	display: inline;
+}
+.itemInteractionIcon {
+	font-size: 25px !important;
+}
+.itemDesc {
+	display: block !important;
+	padding: 10px 10px;
+}
+.itemFeedback {
+	display: block !important;
+	font-weight: 600;
+	font-size: 15px;
+	padding-bottom: 5px;
+	
+}
+
+/* Bottom Nav Styles */
+.itemDescription {
+
+}
+
+.bottomNav {
+	display: block !important;
+	padding: 10px;
+}
+.bottomNavIcon {
+	float: left;
+	display: inline;
+	width: 20%;
+
+}
+.bottomNavIconSymbol {
+	font-size: 23px !important;
+}
 
 
 
